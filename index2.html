@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>MotosportClub</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Favicon -->
+    <link href="images/.png" rel="icon">
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Hoja de estilos de bibliotecas -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Hoja de estilos personalizada de Bootstrap -->
+    <link href="css2/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Hoja de estilos de la plantilla -->
+    <link href="css2/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra superior -->
+    <div class="container-fluid  py-3 px-lg-5 d-none d-lg-block">
+        <div class="row">
+            
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-body pr-3" href=""><i class="fa fa-phone-alt mr-2"></i>+34 367 365 458</a>
+                    <span class="text-body">|</span>
+                    <a class="text-body px-3" href=""><i class="fa fa-envelope mr-2"></i>MotosportClub@gmail.com</a>
+                </div>
+
+                
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-body px-3" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-body pl-3" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de la barra superior -->
+
+
+    <!-- Barra de navegación -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative " style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <img src="MOTORSPORT__2_-removebg-preview.png" alt="Logo" style="height: 100px; margin-right: 10px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+
+                        <a href="procesandoreserva.php" class="nav-item nav-link">Reservas</a>
+                        <a href="reservasclientes.php" class="nav-item nav-link">Mis Reservas</a>
+                        <a href="aboutus.html" class="nav-item nav-link">Sobre Nosotros</a>                       
+                        <a href="#equipo" class="nav-item nav-link">Equipo</a>
+                        <a href="#clientes" class="nav-item nav-link">Opiniones</a>
+                        <a href="adminlogin.php"  class="nav-item nav-link">SESIÓN DE ADMINISTRADOR</a>
+
+                            <div class="nav-item dropdown">
+                            
+                        </div>
+                        <a href="contactus.php" class="nav-item nav-link">Contacto</a>
+                        <a href="index.html" class="nav-item nav-link active">Cerrar Sesion</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Fin de la barra de navegación -->
+
+    <!-- Búsqueda -->
+    <!-- Comentario: Sección de búsqueda eliminada -->
+
+    
+<!-- Carrusel -->
+<div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="images/furgo.jpg" >
+
+                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h2 class="display-3 text-white mb-md-4">Lo importante es el viaje, no el destino</h2>
+
+                        <a href="procesandoreserva.php" class="btn btn-primary py-md-3 px-md-5 mt-2">RESERVAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin del carrusel -->
+    
+    <!-- Acerca de -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-1 text-primary text-center">01</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">Bienvenido a <span class="text-primary">MotosportClub</span></h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <img class="w-75 mb-4" src="img/about.png" alt="">
+                    <p>Somos una empresa comprometida con ofrecerte la mejor experiencia en alquiler de coches. Nuestro equipo está aquí para ayudarte en cada paso del camino, brindándote el mejor servicio y atención al cliente.</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-light p-4 mb-4" style="height: 150px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary ml-n4 mr-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-2x fa-headset text-secondary"></i>
+                        </div>
+                        <h4 class="text-uppercase m-0">Soporte de alquiler de coches 24/7</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-secondary p-4 mb-4" style="height: 150px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary ml-n4 mr-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-2x fa-car text-secondary"></i>
+                        </div>
+                        <h4 class="text-light text-uppercase m-0">Reserva de coches en cualquier momento</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="d-flex align-items-center bg-light p-4 mb-4" style="height: 150px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary ml-n4 mr-4" style="width: 100px; height: 100px;">
+                            <i class="fa fa-2x fa-map-marker-alt text-secondary"></i>
+                        </div>
+                        <h4 class="text-uppercase m-0">Muchas ubicaciones de recogida</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de Acerca de -->
+    
+
+   <!-- Servicios -->
+<div class="container-fluid py-5" id="servicios">
+    <div class="container pt-5 pb-3">
+        <h1 class="display-1 text-primary text-center">02</h1>
+        <h1 class="display-4 text-uppercase text-center mb-5">Nuestros Servicios</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-2">
+                <div class="service-item d-flex flex-column justify-content-center px-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="d-flex align-items-center justify-content-center bg-primary ml-n4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-2x fa-taxi text-secondary"></i>
+                        </div>
+                        <h1 class="display-2 text-white mt-n2 m-0">1</h1>
+                    </div>
+                    <h4 class="text-uppercase mb-3">Alquiler de coches</h4>
+                    <p class="m-0">Ofrecemos alquiler de coches de alta calidad con una amplia gama de opciones para satisfacer sus necesidades de transporte. ¡Viaje con comodidad y estilo!</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-2">
+                <div class="service-item d-flex flex-column justify-content-center px-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="d-flex align-items-center justify-content-center bg-primary ml-n4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-2x fa-car text-secondary"></i>
+                        </div>
+                        <h1 class="display-2 text-white mt-n2 m-0">2</h1>
+                    </div>
+                    <h4 class="text-uppercase mb-3">Inspección de coches</h4>
+                    <p class="m-0">Nuestro equipo de expertos realiza inspecciones detalladas para garantizar que cada vehículo esté en perfectas condiciones antes de ser entregado a usted. Su seguridad es nuestra prioridad.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-2">
+                <div class="service-item d-flex flex-column justify-content-center px-4 mb-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="d-flex align-items-center justify-content-center bg-primary ml-n4" style="width: 80px; height: 80px;">
+                            <i class="fa fa-2x fa-pump-soap text-secondary"></i>
+                        </div>
+                        <h1 class="display-2 text-white mt-n2 m-0">3</h1>
+                    </div>
+                    <h4 class="text-uppercase mb-3">Limpieza de automóviles</h4>
+                    <p class="m-0">Deje que nuestro equipo de limpieza profesional se encargue de mantener su vehículo impecable. Utilizamos técnicas y productos de limpieza de primera calidad para garantizar resultados excepcionales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fin de Servicios -->
+
+
+
+</html>
+
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="bg-banner py-5 px-4 text-center">
+                <div class="py-5">
+                    <h1 class="display-1 text-uppercase text-primary mb-4">50% DESCUENTO</h1>
+                    <h1 class="text-uppercase text-light mb-4">OFERTA ESPECIAL PARA NUEVOS MIEMBROS</h1>
+                    <p class="mb-4"></p>
+                    <a class="btn btn-primary mt-2 py-3 px-5" href="cardetails.php">RESERVA YA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Rent A Car Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-1 text-primary text-center">03</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">Encuentra tu coche</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-1.png" alt="">
+                        <h4 class="text-uppercase mb-4">Mercedes AMG GT</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3" >$2500/Día</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item active mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-2.png" alt="">
+                        <h4 class="text-uppercase mb-4">BMW SERIE 3</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3" >$250/Day</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-3.png" alt="">
+                        <h4 class="text-uppercase mb-4">AUDI R8</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3">$2000/Day</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-4.png" alt="">
+                        <h4 class="text-uppercase mb-4">AUDI Q3</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3" href="">$200/Day</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-5.png" alt="">
+                        <h4 class="text-uppercase mb-4">MERCEDES E CLASS</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3">$500/Day</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-2">
+                    <div class="rent-item mb-4">
+                        <img class="img-fluid mb-4" src="img/car-rent-6.png" alt="">
+                        <h4 class="text-uppercase mb-4">AUDI R8 SPIDER EDITION</h4>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="px-2">
+                                <i class="fa fa-car text-primary mr-1"></i>
+                                <span>2015</span>
+                            </div>
+                            <div class="px-2 border-left border-right">
+                                <i class="fa fa-cogs text-primary mr-1"></i>
+                                <span>AUTO</span>
+                            </div>
+                            <div class="px-2">
+                                <i class="fa fa-road text-primary mr-1"></i>
+                                <span>25K</span>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary px-3" >$3000/Day</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rent A Car End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5" id="equipo" style="height: 1000px;" >
+        <div class="container py-5">
+            <h1 class="display-1 text-primary text-center">04</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">Conoce nuestro equipo</h1>
+            <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                    <div class="position-relative py-4">
+                        <h4 class="text-uppercase">Joaquín Fernandez</h4>
+                        <p class="m-0">Director comercial</p>
+                        <div class="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                    <div class="position-relative py-4">
+                        <h4 class="text-uppercase">Pablo Fernandez</h4>
+                        <p class="m-0">Ingeniero mecánico</p>
+                        <div class="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                    <div class="position-relative py-4">
+                        <h4 class="text-uppercase">Laura Estevez</h4>
+                        <p class="m-0">Responsable de ventas</p>
+                        <div class="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                    <div class="position-relative py-4">
+                        <h4 class="text-uppercase">Alejandro Estevez</h4>
+                        <p class="m-0">Director de marketing</p>
+                        <div class="team-social position-absolute w-100 h-100 d-flex align-items-center justify-content-center">
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Banner Start -->
+  
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="clientes" style="height: 1000px;">
+        <div class="container py-5">
+            <h1 class="display-1 text-primary text-center">05</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">¿QUE OPINAN NUESTROS CLIENTES?</h1>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <img class="img-fluid ml-n4" src="img/testimonial-1.jpg" alt="">
+                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
+                    </div>
+                    <h4 class="text-uppercase mb-2">Juan Pérez</h4>
+                 
+                    <p class="m-0">¡Increíble experiencia de alquiler! El servicio fue rápido y eficiente. El coche estaba en perfectas condiciones y el precio era muy competitivo. ¡Definitivamente volveré a alquilar aquí!</p>
+                </div>
+                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <img class="img-fluid ml-n4" src="img/testimonial-2.jpg" alt="">
+                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
+                    </div>
+                    <h4 class="text-uppercase mb-2">Maria Fernandez</h4>
+                
+                    <p class="m-0">Estoy muy impresionado con el servicio de alquiler de este lugar. El personal fue amable y profesional, y el proceso de alquiler fue muy fácil. Sin duda lo recomendaré a mis amigos y colegas.</p>
+                </div>
+                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <img class="img-fluid ml-n4" src="img/testimonial-3.jpg" alt="">
+                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
+                    </div>
+                    <h4 class="text-uppercase mb-2">Carlos Gomez</h4>
+                  
+                    <p class="m-0">Alquilé un coche para unas vacaciones familiares y todo fue perfecto. El coche estaba limpio y en excelente estado. El personal fue muy servicial y el proceso de devolución fue rápido y sin problemas.</p>
+                </div>
+                <div class="testimonial-item d-flex flex-column justify-content-center px-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <img class="img-fluid ml-n4" src="img/testimonial-4.jpg" alt="">
+                        <h1 class="display-2 text-white m-0 fa fa-quote-right"></h1>
+                    </div>
+                    <h4 class="text-uppercase mb-2">Luisa Martínez</h4>
+              
+                    <p class="m-0">¡Excelente servicio al cliente! Alquilé un coche para un viaje de negocios y quedé impresionado con la calidad del servicio. El coche estaba listo a tiempo y el proceso de devolución fue muy fácil. Sin duda volveré a alquilar aquí en el futuro.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-1 text-primary text-center">06</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">Contacto</h1>
+            <div class="row">
+                <div class="col-lg-7 mb-2">
+                    <div class="contact-form bg-light mb-4" style="padding: 30px;">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="Nombre" required="required">
+                                </div>
+                                <div class="col-6 form-group">
+                                    <input type="email" class="form-control p-4" placeholder="Correo" required="required">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control p-4" placeholder="Tema" required="required">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control py-3 px-4" rows="5" placeholder="Mensaje" required="required"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary py-3 px-5" type="submit">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 mb-2">
+                    <div class="bg-secondary d-flex flex-column justify-content-center px-5 mb-4" style="height: 435px;">
+                        <div class="d-flex mb-3">
+                            <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+                            <div class="mt-n1">
+                                <h5 class="text-light">Oficina Principal</h5>
+                                <p>123 Calle Principal, Ciudad de México, México</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+                            <div class="mt-n1">
+                                <h5 class="text-light">Sucursal</h5>
+                                <p>456 Avenida Principal, Ciudad de México, México</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
+                            <div class="mt-n1">
+                                <h5 class="text-light">Servicio al Cliente</h5>
+                                <p>servicio@MotosportClub.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex">
+                            <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
+                            <div class="mt-n1">
+                                <h5 class="text-light">Return & Refund</h5>
+                                <p class="m-0">MotosportClub@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <h1 class="display-4 text-uppercase text-center mb-5">Marcas con las que trabajamos</h1>
+            <div class="owl-carousel vendor-carousel">
+                <div class="bg-light p-4">
+                    <img src="img/vendor-1.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-2.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-3.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-4.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-5.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-6.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-7.png" alt="">
+                </div>
+                <div class="bg-light p-4">
+                    <img src="img/vendor-8.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+<!-- Pie de página Comienza -->
+<div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+    <div class="row pt-5 justify-content-center"> <!-- Cambio en esta línea -->
+        <div class="col-lg-3 col-md-6 mb-5 "> <!-- Cambio en esta línea -->
+            <h4 class="text-uppercase text-light col-4 mb-4">Contáctanos</h4>
+            <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>123 Calle Principal, Ciudad de México, México</p>
+            <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+012 345 67890</p>
+            <p><i class="fa fa-envelope text-white mr-3"></i>MotosportClub@gmail.com</p>
+            <h6 class="text-uppercase text-white py-2">Síguenos</h6>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-lg btn-dark btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase text-light mb-4">Enlaces Útiles</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-body mb-2" href="privacidad.html"><i class="fa fa-angle-right text-white mr-2"></i>Política de Privacidad</a>
+                <a class="text-body mb-2" href="terminos.html"><i class="fa fa-angle-right text-white mr-2"></i>Términos y Condiciones</a>
+                <a class="text-body mb-2" href="afiliados.html"><i class="fa fa-angle-right text-white mr-2"></i>Programa de Afiliados</a>
+                <a class="text-body mb-2" href="devoluciones.html"><i class="fa fa-angle-right text-white mr-2"></i>Devoluciones y Reembolsos</a>
+                <a class="text-body" href="faq.html"><i class="fa fa-angle-right text-white mr-2"></i>Ayuda y Preguntas Frecuentes</a>
+            </div>
+        </div>
+       
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-uppercase text-light mb-4">Boletín de Noticias</h4>
+            <p class="mb-4">Descubre las últimas novedades y ofertas exclusivas. ¡Suscríbete ahora!</p>
+            <div class="w-100 mb-3">
+                <div class="input-group">
+                    <input type="text" class="form-control bg-dark border-dark" style="padding: 25px;" placeholder="Tu Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary text-uppercase px-3">Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+            <i>Recibe noticias y actualizaciones sobre nuestros servicios.</i>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-dark py-4 px-sm-3 px-md-5">
+    <p class="mb-2 text-center text-body">&copy; <a href="#">MotosportClub</a>. Todos los derechos reservados.</p>
+</div>
+<!-- Pie de página Termina -->
+
+
+    <!-- Back to Top -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

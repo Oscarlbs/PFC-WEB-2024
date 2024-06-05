@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - MotosportClub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header,
+        main,
+        footer {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        main {
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Preguntas Frecuentes</h1>
+    </header>
+    <main>
+        <div class="faq-item">
+            <div class="faq-question">¿Cuáles son los requisitos para alquilar un coche?</div>
+            <div class="faq-answer">Para alquilar un coche, debe tener al menos 21 años de edad y una licencia de
+                conducir válida. También se requiere una tarjeta de crédito válida para realizar el pago y cubrir
+                cualquier depósito de seguridad.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Qué está incluido en el precio del alquiler?</div>
+            <div class="faq-answer">El precio del alquiler generalmente incluye el costo del alquiler del vehículo y
+                cualquier seguro básico requerido. Los costos adicionales pueden incluir seguro adicional, tarifas de
+                combustible y tarifas de conductor adicional.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Puedo alquilar un coche sin tarjeta de crédito?</div>
+            <div class="faq-answer">En la mayoría de los casos, se requiere una tarjeta de crédito válida para
+                alquilar un coche. Sin embargo, algunas empresas de alquiler pueden aceptar tarjetas de débito
+                prepagadas como forma de pago.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">¿Puedo devolver el coche en una ubicación diferente?</div>
+            <div class="faq-answer">Sí, muchas empresas de alquiler permiten la devolución del coche en una ubicación
+                diferente, pero puede estar sujeto a tarifas adicionales. Es importante confirmar esta opción al
+                realizar la reserva.</div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 MotosportClub. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqQuestions = document.querySelectorAll(".faq-question");
+            faqQuestions.forEach(function (question) {
+                question.addEventListener("click", function () {
+                    this.nextElementSibling.classList.toggle("faq-answer");
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
